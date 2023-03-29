@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ball Gravity</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .inputNumberBall {
+        position: fixed;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding: 24px;
+        gap: 30px;
+      }
+
+      input {
+        width: 40%;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid gray;
+      }
+
+      button {
+        border-radius: 8px;
+        border: 1px solid gray;
+        padding: 0 24px 0 24px;
+        background-color: #B0DAFF;
+        color: white;
+        font-weight: 700;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="inputNumberBall">
+      <input placeholder="Number ball" id="number-ball" />
+      <button id="spawn">Spawn</button>
+    </div>
+    <canvas></canvas>
+  </body>
+</html>
